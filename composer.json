@@ -1,0 +1,20 @@
+{
+    "name": "gvladis/example-package",
+    "description": "connection of payment systems",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gvladis\\ExamplePackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gvladis"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "8.2"
+    }
+}
